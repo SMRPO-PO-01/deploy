@@ -1,0 +1,25 @@
+{
+  "name": "realstash-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realstash/realstash-deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realstash/realstash-deploy/issues"
+  },
+  "homepage": "https://github.com/realstash/realstash-deploy#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "shell-exec": "^1.0.1"
+  }
+}
