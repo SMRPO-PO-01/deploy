@@ -4,7 +4,7 @@ const shell = require("shell-exec");
 
 require("dotenv").config();
 
-const opts = { cwd: path.resolve(process.env.API_PATH), stdio: "pipe" };
+const opts = { cwd: path.resolve(process.env.WEBAPP_PATH), stdio: "pipe" };
 
 async function call(command, message) {
   if (!message) message = `"${command}"`;
